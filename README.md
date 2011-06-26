@@ -20,6 +20,11 @@ And if the host has changed you may need to change that as well:
 	
 (default on http://api.myzeo.com:8080/zeows/api/v1/json/sleeperService/)
 
+After authentication you are able to use all of the functions described in the documentation, i.e.
+
+	z.getOverallAverageZQScore() 
+
+should return a number with your average sleeping score (ZQ)
 
 ## Basic functions
 
