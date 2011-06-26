@@ -1,4 +1,4 @@
-This is the readme file for the Zeo Python API I'm trying to develop
+A python library for the Zeo Sleep Monitor. I've build this in my spare time as a reward for the awesome guys from Zeo. They gifted me a Zeo for free and this is one of my ways of thanking them for a great product!
 
 All functions described in the Zeo API documentation are supported: http://mysleep.myzeo.com/api/api.shtml
 
