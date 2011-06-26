@@ -4,6 +4,7 @@ All functions described in the Zeo API documentation are supported: http://mysle
 
 # Usage
 
+	import zeoapi
 	z = zeoapi.Api()
 
 Authenticate with:
