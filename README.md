@@ -14,7 +14,7 @@ Authenticate with:
 	z.apikey = 'your-apikey'
 	z.referrer = 'your-referrer'
 
-And if the host is changed you may need to change that is well:
+And if the host has changed you may need to change that as well:
 
 	z.host = 'host-provided-by-zeo'
 	
