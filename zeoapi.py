@@ -143,25 +143,25 @@ class Api(object):
     def getEarliestSleepStats(self):
         method = self.host + "getEarliestSleepStats?key=" + self.apikey
         result = self.OpenUrl(method)
-        print result['response']['sleepStats']
+        return result['response']['sleepStats']
     
 
     def getEarliestSleepRecord(self):
         method = self.host + "getEarliestSleepRecord?key=" + self.apikey
         result = self.OpenUrl(method)
-        print result['response']['sleepRecord']
+        return result['response']['sleepRecord']
     
 
     def getLatestSleepStats(self):
         method = self.host + "getLatestSleepStats?key=" + self.apikey
         result = self.OpenUrl(method)
-        print result['response']['sleepStats']
+        return result['response']['sleepStats']
     
         
     def getLatestSleepRecord(self):
         method = self.host + "getLatestSleepRecord?key=" + self.apikey
         result = self.OpenUrl(method)
-        print result['response']['sleepRecord']    
+        return result['response']['sleepRecord']    
     
     #######################################
     # Logout function, ends the API session
@@ -170,7 +170,7 @@ class Api(object):
     def logout(self):
         method = self.host + "logout?key=" + self.apikey
         result = self.OpenUrl(method)
-        print result['response']['sleepRecord']
+        return result['response']['sleepRecord']
     
     
     
