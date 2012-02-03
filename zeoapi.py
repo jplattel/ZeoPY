@@ -66,7 +66,7 @@ class Api(object):
     def getAllDatesWithSleepData(self):
         method = self.host + "getAllDatesWithSleepData?key=" + self.apikey
         result = self.OpenUrl(method)
-        return result['response']['datelist']['date']
+        return result['response']['dateList']['date']
     
     def getDatesWithSleepDataInRange(self, dateFrom=None, dateTo=None):
         method = self.host + "getDatesWithSleepDataInRange?key=" + self.apikey
